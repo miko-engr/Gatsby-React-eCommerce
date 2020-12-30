@@ -1,10 +1,10 @@
-## JAMstack ECommerce Professional (Beta)
+## eCommerce Professional (Beta)
 
-JAMstack ECommerce Professional provides a way to quickly get up and running with a fully configurable JAMstack E Commerce site.
+eCommerce Professional provides a way to quickly get up and running with a fully configurable Gatsby E Commerce site.
 
 Out of the box, the site uses completely static data coming from a provider at `providers/inventoryProvider.js`. You can update this provider to fetch data from any real API by changing the call in the `getInventory` function.
 
-![](design.jpg)
+
 
 > This project is still in Beta.
 
@@ -13,7 +13,7 @@ Out of the box, the site uses completely static data coming from a provider at `
 1. Clone the project
 
 ```sh
-$ git clone https://github.com/jamstack-cms/jamstack-ecommerce.git
+$ git clone https://github.com/miko-engr/Gatsby-React-eCommerce.git
 ```
 
 2. Install the dependencies:
@@ -35,10 +35,6 @@ $ gatsby develop
 
 $ gatsby build
 ```
-
-## 1 Click deploy to Amplify Hosting
-
-[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/jamstack-cms/jamstack-ecommerce)
 
 
 ## About the project
@@ -134,20 +130,3 @@ await Promise.all(
 2. Update __src/templates/ViewInventory.js__ with methods to interact with the actual inventory API.
 
 3. Update __src/components/formComponents/AddInventory.js__ with methods to add item to actual inventory API.
-
-### Roadmap for V1
-
-- Auto dropdown navigation for large number of categories
-- Ability to add more / more configurable metadata to item details
-- Themeing + dark mode
-- Better image support out of the box
-- Optional user account / profiles out of the box
-- Have an idea or a request? Submit [an issue](https://github.com/jamstack-cms/jamstack-ecommerce/issues) or [a pull request](https://github.com/jamstack-cms/jamstack-ecommerce/pulls)!
-
-### Other considerations
-
-#### Server-side processing of payments
-
-To see an example of how to process payments server-side with stripe, check out the [Lambda function in the snippets folder](https://github.com/jamstack-cms/jamstack-ecommerce/blob/master/snippets/lambda.js).
-
-Also, consider verifying totals by passing in an array of IDs into the function, calculating the total on the server, then comparing the totals to check and make sure they match.
