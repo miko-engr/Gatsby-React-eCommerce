@@ -17,7 +17,7 @@ const Home = ({ data: gqlData }) => {
       <CartLink />
       <SEO title="Home" />
       <div className="w-full">
-        <div className="bg-green-200
+        <div className="bg-blue-200
         lg:h-hero
         p-6 pb-10 smpb-6
         flex lg:flex-row flex-col">
