@@ -53,7 +53,7 @@ class Admin extends React.Component {
       <div className="flex flex-col">
         <div className="max-w-fw flex flex-col">
           <div className="pt-10">
-            <h1 className="text-5xl font-light">Admin Panel</h1>
+            <h2 className="text-5xl font-light">Admin Panel</h2>
           </div>
           {
             renderForm(formState)
