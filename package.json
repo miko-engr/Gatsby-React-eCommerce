@@ -1,9 +1,9 @@
 {
   "name": "gatsby-ecommerce-professional",
   "private": true,
-  "description": "An E Commerce starter for Gatsby",
+  "description": "An eCommerce starter for Gatsby and React",
   "version": "0.1.0",
-  "author": "Nader Dabit <dabit3@gmail.com>",
+  "author": "Miko Lasso <lassomikoengr@gmail.com>",
   "dependencies": {
     "@stripe/react-stripe-js": "^1.0.0-beta.6",
     "@stripe/stripe-js": "^1.0.0-beta.8",
@@ -54,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dabit3/gatsby-ecommerce-professional"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/dabit3/gatsby-ecommerce-professional/issues"
+    "url": ""
   }
 }
